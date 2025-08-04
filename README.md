@@ -6,8 +6,13 @@ A high-fidelity clone of the **Zentry Gaming website**, built with modern web te
 
 ---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+
+- **React** – Component-based UI
+- **TypeScript** – Type safety & developer tooling
+- **Vite** – Fast dev server with HMR
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Smooth entrance animations and scroll effects
 
 ## Expanding the ESLint configuration
 
