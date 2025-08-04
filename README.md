@@ -1,8 +1,10 @@
-# React + TypeScript + Vite
+# Zentry Clone 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity clone of the **Zentry Gaming website**, built with modern web technologies including **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **GSAP**.
 
-Currently, two official plugins are available:
+> ⚡ Built for fast performance, smooth UI animations, and mobile responsiveness.
+
+---
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
