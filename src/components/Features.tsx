@@ -39,13 +39,28 @@ export const BentoTilt = ({ children, className = "" }) => {
 };
 
 const Bentocard = ({ src, title, description }) => {
+  const videoRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    videoRef.current!.play();
+  };
+
+  const handleMouseLeave = () => {
+    videoRef.current!.pause();
+    videoRef.current!.currentTime = 0; // optional: reset to start
+  };
+
   return (
-    <div className="relative size-full">
+    <div
+      className="relative size-full"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <video
+        ref={videoRef}
         src={src}
         loop
         muted
-        autoPlay
         className="absolute left-0 top-0 size-full object-cover object-center"
       />
 
